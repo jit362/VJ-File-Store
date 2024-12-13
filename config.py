@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "17856759"))
 API_HASH = environ.get("API_HASH", "af493765d44fde7340f25bc4ed8adc52")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/6826e2fac87f660f2fbe3-18de92d657e79795d2.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/8959da4d539077e3d625b-3c18889e61a3229dec.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5407175688').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Tgfilestore2025_bot") # without @
 PORT = environ.get("PORT", "8080")
