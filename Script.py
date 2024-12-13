@@ -10,7 +10,7 @@ class script(object):
 sᴇɴᴅ ᴍᴇ ᴀɴʏ file ᴏʀ video, I ll give you shareable link ..✨
 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs click ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 🤞🏻
 
-♥️ ᴍᴀᴅᴇ ʙʏ : Jit VJ.</b>"""
+♥️ ᴍᴀᴅᴇ ʙʏ : Jit & VJ.</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
