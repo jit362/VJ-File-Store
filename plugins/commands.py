@@ -56,7 +56,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🤩 Join Our Movies Channel', url='https://t.me/sgu_movies')
             ],[
-            InlineKeyboardButton('❤️ Using Tutorials, url='https://t.me/sgu_tutorials),
+            InlineKeyboardButton('🎃 How To Use Tutorials', url='https://t.me/sgu_tutorials'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/sgu4tech')
             ],[
             InlineKeyboardButton('🥲 ʜᴇʟᴘ', callback_data='help'),
