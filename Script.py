@@ -4,11 +4,12 @@
 
 
 class script(object):
-    START_TXT = """<b>👋 Hello Mr./Ms. 😘,
+    START_TXT = """<b>👋 Hello Mr. / Mrs. 😘,
     
-ɪ aᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 file store ʙᴏᴛ with url shortener feature..
-sᴇɴᴅ ᴍᴇ ᴀɴʏ file ᴏʀ video, I ll give you shareable link ..✨
-ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs click ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 🤞🏻
+ɪ aᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴜʀʟ sʜᴏʀᴛᴇɴᴇʀ ғᴇᴀᴛᴜʀᴇ..
+
+sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ, ɪ ʟʟ ɢɪᴠᴇ ʏᴏᴜ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ..✨
+😊 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 👇
 
 ♥️ ᴍᴀᴅᴇ ʙʏ : Jit & VJ.</b>"""
 
@@ -96,7 +97,7 @@ First Send /clone command then follow below steps.
 🔻 /link - ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ғɪʟᴇ ᴛᴏ ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ
 
 🔻 /batch - sᴇɴᴅ ғɪʀsᴛ ʟɪɴᴋ ᴏғ ғɪʟᴇ sᴛᴏʀᴇ ᴄʜᴀɴɴᴇʟ ᴘᴏsᴛ ᴛʜᴇɴ ʟᴀsᴛ ᴘᴏsᴛ ʟɪɴᴋ ᴀɴᴅ ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ғɪʟᴇ sᴛᴏʀᴇ ᴄʜᴀɴɴᴇʟ.
-ᴇx - /batch https://t.me/sgu4tech/56 https://t.me/SGU4TECH/60
+ᴇx - /batch https://t.me/SGU4TECH/56 https://t.me/SGU4TECH/60
 
 🔻 /base_site - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴛ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ʟɪɴᴋ ᴅᴏᴍᴀɪɴ 
 ᴇx - /base_site ʏᴏᴜʀᴅᴏᴍᴀɪɴ.ᴄᴏᴍ
@@ -137,7 +138,7 @@ ID - <code>{}</code>
 Nᴀᴍᴇ - {}</b>
 """
     RESTART_TXT = """
-<b> #Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b> #Bᴏᴛ_Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
