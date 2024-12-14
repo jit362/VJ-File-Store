@@ -54,13 +54,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🤩 Join Our Movies Channel', url='https://t.me/sgu_movies')
+            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/sgu_movies')
             ],[
-            InlineKeyboardButton('🎃 How To Use Tutorials', url='https://t.me/sgu_tutorials'),
+            InlineKeyboardButton('🎃 ʜᴏᴡ ᴛᴏ ᴜsᴇ', url='https://t.me/sgu_tutorials'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/sgu4tech')
             ],[
-            InlineKeyboardButton('🥲 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('👹 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🥲 ʜᴇʟᴘ 🥲', callback_data='help'),
+            InlineKeyboardButton('👹 ᴀʙᴏᴜᴛ 👹', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -227,7 +227,7 @@ async def start(client, message):
                 InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="<b>You are not verified !\nKindly verify to continue !</b>",
+                text="<b>❌️ You are not verified !\n 😇 Kindly verify to continue ! 👇</b>",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
