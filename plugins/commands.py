@@ -227,9 +227,9 @@ async def start(client, message):
                 InlineKeyboardButton("‼️ How To Open Link & Verify ⁉️", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="<b>❌️ You are not verified ! For Today ❌️ \n\n 
+                text="""<b>❌️ You are not verified ! For Today ❌️ \n\n 
 😇 Kindly verify to continue ! 👇 \n\n 
-‼️ Verify Once In a Day and get all files Direct full day. ✅️</b>",
+‼️ Verify Once In a Day and get all files Direct full day. ✅️</b>""",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
@@ -242,7 +242,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@SGU4TECH ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '[ @SGU4TECH ]' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
