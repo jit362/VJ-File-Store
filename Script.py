@@ -4,16 +4,16 @@
 
 
 class script(object):
-    START_TXT = """<b>👋 Hello Mr. / Mrs. 😘,
-    
-ɪ aᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ 🤖 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴜʀʟ sʜᴏʀᴛᴇɴᴇʀ ғᴇᴀᴛᴜʀᴇ..
-and also clone feature.
+    START_TXT = """<b>👋 ʜᴇʟʟᴏ ᴍʀ. / ᴍʀs. 😘,
+ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ 🤖 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴜʀʟ sʜᴏʀᴛᴇɴᴇʀ ғᴇᴀᴛᴜʀᴇ.
+
+ᴀɴᴅ ᴀʟsᴏ ᴡɪᴛʜ ᴇᴀsʏ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ.😎
 
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ, ɪ ʟʟ ɢɪᴠᴇ ʏᴏᴜ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ..✨
 
 😊 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 👇
 
-♥️ ᴍᴀᴅᴇ ʙʏ : Jit & VJ.</b>"""
+♥️ ᴍᴀᴅᴇ ʙʏ : <a href="https://t.me/Jitchatbot1_bot">🄹🄸🅃 & 🅅🄹 </a></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -44,16 +44,16 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    CLONE_START_TXT = """<b>👋 Hello Mr. / Mrs. 😘,
-    
-ɪ aᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ 🤖 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴜʀʟ sʜᴏʀᴛᴇɴᴇʀ ғᴇᴀᴛᴜʀᴇ..
-and also clone feature.
+    CLONE_START_TXT = """<b>👋 ʜᴇʟʟᴏ ᴍʀ. / ᴍʀs. 😘,
+ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ 🤖 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴜʀʟ sʜᴏʀᴛᴇɴᴇʀ ғᴇᴀᴛᴜʀᴇ.
+
+ᴀɴᴅ ᴀʟsᴏ ᴡɪᴛʜ ᴇᴀsʏ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ.😎
 
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ, ɪ ʟʟ ɢɪᴠᴇ ʏᴏᴜ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ..✨
 
 😊 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 👇
 
-♥️ ᴍᴀᴅᴇ ʙʏ : <a href=https://t.me/jitchatbot1>Jit & VJ.</a></b>"""
+♥️ ᴍᴀᴅᴇ ʙʏ : <a href="https://t.me/Jitchatbot1_bot">🄹🄸🅃 & 🅅🄹 </a></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -65,9 +65,9 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ, ɪ ʟʟ ɢɪᴠᴇ ʏ�
 
 📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>𝐏𝐲𝐭𝐡𝐨𝐧𝟑</a>
 
-📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
+🪯 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/jit362>Jittu Bhai</a>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/jit362>Jittu Bhai</a></b>
 """
 
     CABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍᴇᴀɴs ᴀɴʏ ᴜsᴇʀ ᴄᴀɴ sᴇᴛ ʜɪs ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀɴᴅ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.
@@ -76,7 +76,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ, ɪ ʟʟ ɢɪᴠᴇ ʏ�
 
 📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>𝐏𝐲𝐭𝐡𝐨𝐧𝟑</a>
 
-📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
+♾️ ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=tg://user?id={}>ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>
 """
