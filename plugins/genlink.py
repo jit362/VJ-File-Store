@@ -50,7 +50,7 @@ async def incoming_gen_link(bot, message):
         short_link = await get_short_link(user, share_link)
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- 
 <code>{share_link}</code>
-👍🏻 Copiable link. ✅️</code></b>")
+👍🏻 Copiable link. ✅️</b>")
     else:
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- 
 <code>{share_link}</code>
