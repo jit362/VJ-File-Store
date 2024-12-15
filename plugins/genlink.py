@@ -48,9 +48,9 @@ async def incoming_gen_link(bot, message):
         share_link = f"https://t.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
         short_link = await get_short_link(user, share_link)
-        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- {short_link} and Copiable link <code>{short_link}</code></b>")
+        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- <code>{share_link}</code> Copiable link. ✅️</code></b>")
     else:
-        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- {share_link} and Copiable link <code>{short_link}</code></b>")
+        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- <code>{share_link}</code> Copiable link. ✅️</b>")
         
 
 @Client.on_message(filters.command(['link', 'plink']) & filters.create(allowed))
@@ -81,9 +81,9 @@ async def gen_link_s(bot, message):
         share_link = f"https://t.me/{username}?start={outstr}"
     if user["base_site"] and user["shortener_api"] != None:
         short_link = await get_short_link(user, share_link)
-        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link} and Copiable link <code>{short_link}</code></b>")
+        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link} and Copiable link</b>")
     else:
-        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- {share_link} and Copiable link <code>{short_link}</code></b>")
+        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- <code>{share_link}</code> Copiable link. ✅️</b>")
         
 
 # Don't Remove Credit Tg - @VJ_Botz
