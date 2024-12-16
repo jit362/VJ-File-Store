@@ -54,7 +54,8 @@ async def incoming_gen_link(bot, message):
     else:
         await message.reply(f"""<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- 
 <code>{share_link}</code>
-👍🏻 Copiable link. ✅️</b>""")
+
+👆🏻 Copiable link. ✅️</b>""")
         
 
 @Client.on_message(filters.command(['link', 'plink']) & filters.create(allowed))
@@ -89,7 +90,8 @@ async def gen_link_s(bot, message):
     else:
         await message.reply(f"""<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ɢᴇɴᴇʀᴀᴛᴇᴅ ғɪʟᴇ ʟɪɴᴋ :- 
 <code>{share_link}</code>
-👍🏻 Copiable link. ✅️</b>""")
+
+👆🏻 Copiable link. ✅️</b>""")
         
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -100,10 +102,10 @@ async def gen_link_s(bot, message):
 async def gen_link_batch(bot, message):
     username = (await bot.get_me()).username
     if " " not in message.text:
-        return await message.reply("Use correct format.\nExample /batch https://t.me/vj_botz/10 https://t.me/vj_botz/20.")
+        return await message.reply("Use correct format.\nExample /batch https://t.me/sgu_movies/10 https://t.me/sgu_movies/20.")
     links = message.text.strip().split(" ")
     if len(links) != 3:
-        return await message.reply("Use correct format.\nExample /batch https://t.me/vj_botz/10 https://t.me/vj_botz/20.")
+        return await message.reply("Use correct format.\nExample /batch https://t.me/sgu_movies/10 https://t.me/sgu_movies/20.")
     cmd, first, last = links
     regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
     match = regex.match(first)
