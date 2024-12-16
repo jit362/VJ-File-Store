@@ -52,9 +52,9 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/sgu_movies')
+            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
+            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start')
             ],[
             InlineKeyboardButton('🥲 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔻', callback_data='about')
@@ -180,9 +180,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/sgu_movies')
+            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/')
             ],[
-            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
+            InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start')
             ],[
             InlineKeyboardButton('🥲 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔻', callback_data='about')
