@@ -52,7 +52,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me')
+            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/Jitchatbot1_bot')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start')
             ],[
@@ -90,7 +90,7 @@ async def start(client, message):
                 )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '[ @SGU4TECH ] ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '[ @Jitchatbot1_bot  ] ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -180,7 +180,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/')
+            InlineKeyboardButton('🤩 ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/Jitchatbot1_bot')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start')
             ],[
