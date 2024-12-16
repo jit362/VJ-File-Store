@@ -13,7 +13,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ, ɪ ʟʟ ɢɪᴠᴇ ʏ�
 
 😊 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 👇
 
-♥️ ᴍᴀᴅᴇ ʙʏ : <a href="https://t.me/Jitchatbot1_bot">🄹🄸🅃 & 🅅🄹 </a></b>"""
+♥️ ᴍᴀᴅᴇ ʙʏ : <a href="https://t.me/Jitchatbot1_bot">🄹🄸🅃🅃🅄  🄱🄷🄰🄸</a></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -53,7 +53,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ, ɪ ʟʟ ɢɪᴠᴇ ʏ�
 
 😊 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 👇
 
-♥️ ᴍᴀᴅᴇ ʙʏ : <a href="https://t.me/Jitchatbot1_bot">🄹🄸🅃 & 🅅🄹 </a></b>"""
+♥️ ᴍᴀᴅᴇ ʙʏ : <a href="https://t.me/Jitchatbot1_bot">🄹🄸🅃🅃🅄  🄱🄷🄰🄸</a></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
