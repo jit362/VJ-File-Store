@@ -94,7 +94,11 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all files till today midnight.</b>",
+                text=f"""<b>Hey {message.from_user.mention}, ʏᴏᴜ ᴀʀᴇ ᴠᴇʀɪғɪᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ! ✅️\n\n
+                
+‼️ ɴᴏᴡ ᴄʟɪᴄᴋ ᴀɢᴀɪɴ ᴏɴ ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜs ғɪʟᴇ ʟɪɴᴋ ᴀɴᴅ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs. ‼️
+                
+📝 Note: 𝚈𝚘𝚞 𝚑𝚊𝚟𝚎 𝚞𝚗𝚕𝚒𝚖𝚒𝚝𝚎𝚍 𝚍𝚒𝚛𝚎𝚌𝚝 𝚊𝚌𝚌𝚎𝚜𝚜 𝚏𝚘𝚛 𝚊𝚕𝚕 𝚏𝚒𝚕𝚎𝚜 𝚝𝚒𝚕𝚕 𝚝𝚘𝚍𝚊𝚢 𝚖𝚒𝚍𝚗𝚒𝚐𝚑𝚝.♾️ ❤️</b>""",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -222,14 +226,14 @@ async def start(client, message):
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         if not await check_verification(client, message.from_user.id) and VERIFY_MODE == True:
             btn = [[
-                InlineKeyboardButton("❤️‍🔥 Verify Now and Get File ✅️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{username}?start="))
+                InlineKeyboardButton("❤️‍🔥 ᴠᴇʀɪғʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ғɪʟᴇ ✅️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{username}?start="))
             ],[
-                InlineKeyboardButton("‼️ How To Open Link & Verify ⁉️", url=VERIFY_TUTORIAL)
+                InlineKeyboardButton("‼️ ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ ⁉️", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="""<b>❌️ You are not verified For Today ❌️ \n\n 
-😇 Kindly Click Verify button to continue ! 👇👇 \n\n 
-‼️ Verify Once In a Day and get all files Direct full day. ✅️ 👇👇</b>""",
+                text="""<b>❌️ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ғᴏʀ ᴛᴏᴅᴀʏ ❌️ \n\n 
+😇 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴠᴇʀɪғʏ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ! 👇👇 \n\n 
+‼️ ᴠᴇʀɪғʏ ᴏɴᴄᴇ ɪɴ ᴀ ᴅᴀʏ ᴀɴᴅ ɢᴇᴛ ᴀʟʟ ғɪʟᴇs ᴅɪʀᴇᴄᴛ ғᴜʟʟ ᴅᴀʏ. 👇👇</b>""",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
