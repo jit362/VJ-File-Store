@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "17856759"))
 API_HASH = environ.get("API_HASH", "af493765d44fde7340f25bc4ed8adc52")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/8959da4d539077e3d625b-3c18889e61a3229dec.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/c7b4d5b04af65e411ad97-9e9c3114a10886b9dc.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5407175688').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Tgfilestore2025_bot") # without @
 PORT = environ.get("PORT", "8080")
@@ -70,7 +70,7 @@ WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or Fa
 WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://vj-file-store-cvgj.onrender.com/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
